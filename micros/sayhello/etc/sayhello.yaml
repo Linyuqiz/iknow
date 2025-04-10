@@ -1,0 +1,9 @@
+Name: sayhello.rpc
+ListenOn: 0.0.0.0:8080
+
+#Etcd:
+# Hosts:
+#   - etcd-headless.etcd-cluster.svc.cluster.local:2379
+# User: root
+# Pass: root1234
+# Key: sayhello.rpc

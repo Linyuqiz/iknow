@@ -1,0 +1,12 @@
+Name: sayhello-api
+Host: 0.0.0.0
+Port: 8888
+
+SayHelloZRpc:
+   Target: k8s://iknow/sayhello-rpc:8080
+#  Etcd:
+#    Hosts:
+#      - etcd-headless.etcd-cluster.svc.cluster.local:2379
+#    User: root
+#    Pass: root1234
+#    Key: sayhello.rpc
